@@ -9,14 +9,14 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
-            background: url(''https://www.dropbox.com/s/k82xrii5ha2fifqv0ian1/back.jpg?raw=1') no-repeat center center fixed; /* Change to your cover photo file name */
-            background-size: cover; /* Ensure the image covers the entire background */
+            background: url('https://www.dropbox.com/scl/fi/k82xrii5ha2fifqv0ian1/back.jpg?raw=1') no-repeat center center fixed;
+            background-size: cover;
             color: #333;
             line-height: 1.6;
         }
 
         header {
-            background: url(''https://www.dropbox.com/s/k82xrii5ha2fifqv0ian1/back.jpg?raw=1') no-repeat center center; /* Background image only */
+            background: url('https://www.dropbox.com/scl/fi/k82xrii5ha2fifqv0ian1/back.jpg?raw=1') no-repeat center center;
             background-size: cover;
             color: white;
             text-align: center;
@@ -38,9 +38,8 @@
             text-shadow: 2px 2px #333;
         }
 
-        header p {
-            font-size: 1.2em;
-            font-weight: 300;
+        header h2 {
+            color: #fa3f2f;
         }
 
         nav {
@@ -97,29 +96,13 @@
             padding: 60px 0;
         }
 
-        section#about {
-            background-color: #000000; /* Changed from white to black */
-            color: #ffffff; /* Ensure text is readable on black background */
-        }
-
-        section#education {
-            background-color: #000000; /* Changed from white to black */
-            color: #ffffff; /* Ensure text is readable on black background */
-        }
-
-        section#resume {
-            background-color: #000000; /* Changed from white to black */
-            color: #ffffff; /* Ensure text is readable on black background */
-        }
-
-        section#projects {
-            background-color: #000000; /* Changed from #f0f0f0 to black */
-            color: #ffffff; /* Ensure text is readable on black background */
-        }
-
+        section#about,
+        section#education,
+        section#resume,
+        section#projects,
         section#contact {
-            background-color: #000000; /* Changed from #f7f7f7 to black */
-            color: #ffffff; /* Ensure text is readable on black background */
+            background-color: #000000;
+            color: #ffffff;
         }
 
         h2 {
@@ -152,101 +135,97 @@
 <header>
     <div class="container">
         <div class="profile">
-            <img src="https://www.dropbox.com/s/b9mhqo13sdauxbtnp55f6/dpp.JPG?raw=1" alt="Ashwin Sadesh Kumar">
+            <img src="https://www.dropbox.com/scl/fi/b9mhqo13sdauxbtnp55f6/dpp.JPG?raw=1" alt="Ashwin Sadesh Kumar">
             <h1>Ashwin Sadesh Kumar</h1>
-            <h2 style="color: #fa3f2f;">Passionate student with expertise in Applied Physics, Data Science, and Artificial Intelligence.</h2>
+            <h2>Passionate student with expertise in Applied Physics, Data Science, and Artificial Intelligence.</h2>
             <a href="#about" class="btn-primary">Learn More</a>
         </div>
     </div>
 </header>
 
+<nav>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am Ashwin Sadesh Kumar, a passionate and dynamic professional with a strong academic background in Physics and Applied Artificial Intelligence. My journey began with a Bachelor’s degree in Physics, where I developed a profound understanding of the physical world, particularly in areas such as Astrophysics, Computational Physics, and Numerical Analysis. This foundation not only honed my analytical and problem-solving skills but also instilled a deep curiosity about the universe and the complex phenomena that govern it.</p>
+        <p>As I delved deeper into the world of physics, I realized the immense potential of computational tools and machine learning in solving complex scientific problems. This led me to pursue a Postgraduate program in Applied AI, where I gained expertise in cutting-edge technologies and methodologies. I have developed strong technical proficiency in machine learning algorithms such as Logistic Regression, SVM, Decision Trees, and ensemble methods. My deep learning expertise includes working with CNNs, ANNs, and transformer models like BERT, allowing me to tackle challenges in both structured and unstructured data.</p>
+        <p>In addition to my technical skills in AI and Physics, I have acquired a diverse toolkit of software and programming languages. My proficiency in Python has been central to my success in data science and AI projects, enabling me to develop complex models and algorithms. I am skilled in data visualization tools like Tableau and Power BI, where I can transform raw data into meaningful insights. My knowledge extends to advanced Excel for data manipulation, Azure for cloud computing, and programming languages like HTML and Java for web development and software integration.</p>
+        <p>Throughout my academic and professional journey, I have been involved in several high-impact projects that bridge the gap between physics and AI. For instance, my work on the Stellar Galaxy Classification Model utilized deep learning techniques to automate the classification of astronomical objects, contributing to advancements in astrophysical research. Similarly, my Social media sentiment analysis project combined NLP and Analytics to innovate in the retail sector, showcasing my ability to apply technical expertise to real-world problems.</p>
+        <p>I am driven by a desire to explore the intersection of science and technology, using my knowledge to innovate and create solutions that push the boundaries of what’s possible. Whether it’s analyzing complex datasets, developing predictive models, or creating immersive digital experiences, I am committed to excellence and continuous learning. My ultimate goal is to build a career that leverages my dual expertise in Physics and AI to contribute meaningfully to the fields of data science, artificial intelligence, and beyond.</p>
+        <p>In my spare time, I enjoy stargazing, playing football, and writing stories, which allows me to stay creative and balanced. I am eager to connect with like-minded professionals and explore opportunities that align with my passions and skills.</p>
+    </div>
+</section>
 
+<section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Science (B.Sc.) in Physics</strong> - CGPA - 8.9/10 (2019 - 2022)</p>
+        <p><strong>PG Program in Applied AI Solutions Development</strong> - CGPA - 3.5/4 (Jan 2024 - Dec 2024)</p>
+    </div>
+</section>
 
+<section id="resume">
+    <div class="container">
+        <h2>Resume</h2>
+        <p>Download my full resume below:</p>
+        <a href="CV-Ashwin.pdf" class="btn-primary" download="CV-Ashwin">Download Resume</a>
+    </div>
+</section>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am Ashwin Sadesh Kumar, a passionate and dynamic professional with a strong academic background in Physics and Applied Artificial Intelligence. My journey began with a Bachelor’s degree in Physics, where I developed a profound understanding of the physical world, particularly in areas such as Astrophysics, Computational Physics, and Numerical Analysis. This foundation not only honed my analytical and problem-solving skills but also instilled a deep curiosity about the universe and the complex phenomena that govern it.</p>
-            <p>As I delved deeper into the world of physics, I realized the immense potential of computational tools and machine learning in solving complex scientific problems. This led me to pursue a Postgraduate program in Applied AI, where I gained expertise in cutting-edge technologies and methodologies. I have developed strong technical proficiency in machine learning algorithms such as Logistic Regression, SVM, Decision Trees, and ensemble methods. My deep learning expertise includes working with CNNs, ANNs, and transformer models like BERT, allowing me to tackle challenges in both structured and unstructured data.</p>
-            <p>In addition to my technical skills in AI and Physics, I have acquired a diverse toolkit of software and programming languages. My proficiency in Python has been central to my success in data science and AI projects, enabling me to develop complex models and algorithms. I am skilled in data visualization tools like Tableau and Power BI, where I can transform raw data into meaningful insights. My knowledge extends to advanced Excel for data manipulation, Azure for cloud computing, and programming languages like HTML and Java for web development and software integration.</p>
-            <p>Throughout my academic and professional journey, I have been involved in several high-impact projects that bridge the gap between physics and AI. For instance, my work on the Stellar Galaxy Classification Model utilized deep learning techniques to automate the classification of astronomical objects, contributing to advancements in astrophysical research. Similarly, my Social media sentiment analysis project combined NLP and Analytics to innovate in the retail sector, showcasing my ability to apply technical expertise to real-world problems.</p>
-            <p>I am driven by a desire to explore the intersection of science and technology, using my knowledge to innovate and create solutions that push the boundaries of what’s possible. Whether it’s analyzing complex datasets, developing predictive models, or creating immersive digital experiences, I am committed to excellence and continuous learning. My ultimate goal is to build a career that leverages my dual expertise in Physics and AI to contribute meaningfully to the fields of data science, artificial intelligence, and beyond.</p>
-            <p>In my spare time, I enjoy stargazing, playing football, and writing stories, which allows me to stay creative and balanced. I am eager to connect with like-minded professionals and explore opportunities that align with my passions and skills.</p>
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Stellar Galaxy Classification Model using CNN</h3>
+            <p>Developed a deep learning model to classify stellar objects, specifically stars and galaxies, using Convolutional Neural Networks (CNNs). This project was initiated as part of a collaborative effort with Aryabhatta Research Institute of Observational Sciences (ARIES), utilizing image cutouts obtained from their in-house 1.3m telescope.</p>
+            <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV</p>
         </div>
-    </section>
-
-    <section id="education">
-        <div class="container">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Science (B.Sc.) in Physics</strong> - CGPA - 8.9/10 (2019 - 2022)</p>
-            <p><strong>PG Program in Applied AI Solutions Development</strong> - CGPA - 3.5/4 (Jan 2024 - Dec 2024)</p>
+        <div class="project">
+            <h3>Virtual Trial Room Project using Deep Learning</h3>
+            <p>Created an interactive virtual trial room application that uses computer vision and deep learning to detect body parts and fit virtual clothes onto users. The project incorporates Tkinter for the GUI and machine learning models for pose estimation and garment fitting.</p>
+            <p><strong>Technologies Used:</strong> Python, OpenCV, TensorFlow, Tkinter</p>
         </div>
-    </section>
-
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>Download my full resume below:</p>
-            <a href="CV-Ashwin.pdf" class="btn-primary" download="CV-Ashwin">Download Resume</a>
+        <div class="project">
+            <h3>Personal Loan Prediction Model using Machine Learning</h3>
+            <p>Designed a machine learning model to predict the likelihood of loan approval based on customer data. The model leverages various machine learning algorithms to provide insights into loan eligibility.</p>
+            <p><strong>Technologies Used:</strong> Python, Scikit-Learn, Pandas</p>
         </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Stellar Galaxy Classification Model using CNN</h3>
-                <p>Developed a deep learning model to classify stellar objects, specifically stars and galaxies, using Convolutional Neural Networks (CNNs). This project was initiated as part of a collaborative effort with Aryabhatta Research Institute of Observational Sciences (ARIES), utilizing image cutouts obtained from their in-house 1.3m telescope.</p>
-                <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV</p>
-            </div>
-            <div class="project">
-                <h3>Virtual Trial Room Project using Deep Learning</h3>
-                <p>Created an interactive virtual trial room application that uses computer vision and deep learning to detect body parts and fit virtual clothes onto users. The project incorporates Tkinter for the GUI and machine learning models for pose estimation and garment fitting.</p>
-                <p><strong>Technologies Used:</strong> Python, OpenCV, TensorFlow, Tkinter</p>
-            </div>
-            <div class="project">
-                <h3>Personal Loan Prediction Model using Machine Learning</h3>
-                <p>Designed a machine learning model to predict the likelihood of loan approval based on customer data. The model leverages various machine learning algorithms to provide insights into loan eligibility.</p>
-                <p><strong>Technologies Used:</strong> Python, Scikit-Learn, Pandas</p>
-            </div>
-            <div class="project">
-                <h3>Social Media Sentiment Analysis using NLP and Neural Networks</h3>
-                <p>Developed a sentiment analysis tool that classifies social media posts into positive, negative, or neutral categories using Natural Language Processing (NLP) and neural network models. The project aims to provide feedback on user emotions and content.</p>
-                <p><strong>Technologies Used:</strong> Python, NLTK, TensorFlow, Keras</p>
-            </div>
-            <div class="project">
-                <h3>Retail Car Sale Analysis Dashboard using Python and Tableau</h3>
-                <p>Created an interactive dashboard for analyzing retail car sales data. The dashboard visualizes sales trends, customer demographics, and other key metrics to support data-driven business decisions.</p>
-                <p><strong>Technologies Used:</strong> Python, Tableau</p>
-            </div>
+        <div class="project">
+            <h3>Social Media Sentiment Analysis using NLP and Neural Networks</h3>
+            <p>Developed a sentiment analysis tool that classifies social media posts into positive, negative, or neutral categories using Natural Language Processing (NLP) and neural network models. The project aims to provide feedback on user emotions and content.</p>
+            <p><strong>Technologies Used:</strong> Python, NLTK, TensorFlow, Keras</p>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, please feel free to reach out via email or connect with me on LinkedIn:</p>
-            <p><strong>Email:</strong> <a href="mailto:ashwinsadeshkumar@gmail.com" style="color: #ff5733;">ashwinsadeshkumar@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ashwin-sadesh-kumar" style="color: #ff5733;">linkedin.com/in/ashwin-sadesh-kumar</a></p>
-             <p><strong>Github:</strong> <a href="https://github.com/Ashwin-Sadesh">github.com/in/ashwin-sadesh</a></p>
-            <p><strong>Mobile:</strong> +1 (437) 984 2427</p>
+        <div class="project">
+            <h3>Retail Car Sale Analysis Dashboard using Python and Tableau</h3>
+            <p>Created an interactive dashboard for analyzing retail car sales data. The dashboard visualizes sales trends, customer demographics, and other key metrics to support data-driven business decisions.</p>
+            <p><strong>Technologies Used:</strong> Python, Tableau</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2024 Ashwin Sadesh Kumar. All Rights Reserved.</p>
-    </footer>
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, please feel free to reach out via email or connect with me on LinkedIn:</p>
+        <p><strong>Email:</strong> <a href="mailto:ashwinsadeshkumar@gmail.com" style="color: #ff5733;">ashwinsadeshkumar@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ashwin-sadesh-kumar" style="color: #ff5733;">linkedin.com/in/ashwin-sadesh-kumar</a></p>
+        <p><strong>Github:</strong> <a href="https://github.com/Ashwin-Sadesh" style="color: #ff5733;">github.com/in/ashwin-sadesh</a></p>
+        <p><strong>Mobile:</strong> +1 (437) 984 2427</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Ashwin Sadesh Kumar. All Rights Reserved.</p>
+</footer>
 </body>
 
 </html>
